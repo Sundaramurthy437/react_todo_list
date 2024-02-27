@@ -7,7 +7,7 @@ const SearchItem = ({search,setSearch}) => {
       <input
        type="text"
        id='search'
-       role='searchBox'
+       role='search'
        placeholder='Serach tasks'
        value={search} //values will store in search variable
        onChange={(e)=>setSearch(e.target.value)} // new value save in setSearch
